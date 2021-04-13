@@ -10,5 +10,6 @@ java -jar swagger-codegen-cli.jar generate  \
 -l php \
 -c swagger-codegen-config.json
 
+unlink SwaggerClient-php/.gitignore
 mv SwaggerClient-php/* ./
 rm -rf SwaggerClient-php
