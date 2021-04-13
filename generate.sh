@@ -8,5 +8,7 @@ KUBEVIRT_SPEC=https://raw.githubusercontent.com/kubevirt/kubevirt/master/api/ope
 java -jar swagger-codegen-cli.jar generate  \
 -i "$KUBEVIRT_SPEC" \
 -l php \
--c swagger-codegen-config.json \
--o ./api_client
+-c swagger-codegen-config.json
+
+mv SwaggerClient-php/* ./
+rm -rf SwaggerClient-php

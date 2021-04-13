@@ -1,0 +1,6 @@
+{
+"packageName": "kubevirt",
+"projectName": "kubevirt client for php",
+"packageUrl": "https://github.com/daresheep/kubevirt-client-php",
+"packageVersion": "v0.40.0"
+}
