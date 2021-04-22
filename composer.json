@@ -1,18 +1,18 @@
 {
-    "name": "GIT_USER_ID/GIT_REPO_ID",
-    "description": "",
+    "name": "daresheep/kubevirt-client-php",
+    "description": "kubevirt client for php",
     "keywords": [
-        "swagger",
+        "kubevirt",
         "php",
         "sdk",
         "api"
     ],
-    "homepage": "http://swagger.io",
+    "homepage": "http://kubevirt.io",
     "license": "proprietary",
     "authors": [
         {
-            "name": "Swagger and contributors",
-            "homepage": "https://github.com/swagger-api/swagger-codegen"
+            "name": "daresheep",
+            "homepage": "https://github.com/daresheep/kubevirt-client-php"
         }
     ],
     "require": {
